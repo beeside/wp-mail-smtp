@@ -30,15 +30,15 @@ You can set the following options:
 
 ## Frequently Asked Questions
 
-### My plugin still sends mail via the mail() function
+###### My plugin still sends mail via the mail() function
 
 If other plugins you're using are not coded to use the wp_mail() function but instead call PHP's mail() function directly, they will bypass the settings of this plugin. Normally, you can edit the other plugins and simply replace the `mail(` calls with `wp_mail(` (just adding wp_ in front) and this will work. I've tested this on a couple of plugins and it works, but it may not work on all plugins.
 
-### Will this plugin work with WordPress versions less than 2.7? 
+###### Will this plugin work with WordPress versions less than 2.7? 
 
 No. WordPress 2.7 changed the way options were updated, so the options page will only work on 2.7 or later.
 
-### Can I use this plugin to send email via Gmail / Google Apps
+###### Can I use this plugin to send email via Gmail / Google Apps
 
 Yes. Use these settings:
 Mailer: SMTP
@@ -49,14 +49,14 @@ Authentication: Yes
 Username: your full gmail address
 Password: your mail password
 
-### Can you add feature x, y or z to the plugin?
+###### Can you add feature x, y or z to the plugin?
 
 Short answer: maybe.
 
 By all means please contact me to discuss features or options you'd like to see added to the plugin. I can't guarantee to add all of them, but I will consider all sensible requests. I can be contacted here:
 <http://www.callum-macdonald.com/code/wp-mail-smtp/>
 
-### Screenshots 
+###### Screenshots 
 
 1. Screenshot of the Options > Email panel.
 
