@@ -62,6 +62,11 @@ By all means please contact me to discuss features or options you'd like to see 
 
 ## Changelog 
 
+##### 1.0.0
+```
+Fix a bug issue where recepient was set as the sender
+```
+
 ##### 0.9.5
 ```
 Minor security fix, hat tip JD Grimes.
