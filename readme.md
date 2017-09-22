@@ -181,37 +181,3 @@ Reworked approach as suggested by westi, added options page
 Initial approach, copying the wp_mail function and replacing it
 ```
 
-== Upgrade Notice ==
-
-= 0.9.5 =
-Minor security fix, hat tip JD Grimes.
-
-= 0.9.4 =
-Improvement to the test email function, very low priority update.
-
-= 0.9.3 =
-Fixing reported issue with passing by reference.
-
-= 0.9.2 =
-Removing the deprecation notice.
-
-= 0.9.1 =
-Test mail functionality was broken on upgrade to 3.2, now restored.
-
-= 0.9.0 =
-Low priority upgrade. Improves the appearance of the options page.
-
-= 0.8.7 =
-Very low priority update. Fixes a bug that causes a spurious error during activation.
-
-= 0.8.6 =
-Low priority update. The Settings link was still broken in 0.8.5.
-
-= 0.8.5 =
-Minor bugfix correcting the Settings link bug introduced in 0.8.4. Very low priority update.
-
-= 0.8.4 =
-Minor bugfix for users using constants. Another very low priority upgrade. Apologies for the version creep.
-
-= 0.8.3 =
-Minor bugfix for users using constants. Very low priority upgrade.
